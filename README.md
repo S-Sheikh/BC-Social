@@ -8,5 +8,7 @@ Made using Vanilla JS,HTML5 and Boostrap/CSS3 on the frontend, firebase on the b
 
  - Clone this repo to your local machine.
  - Create a Firebase account + a web app in Firebase console.
+ - Create a Real Time DB for your web app and enable email based Firebase Auth.
+ - Set the read/write permission properties for your DB to 'true'.
  - Create an "app.js" file and copy in the API boilerplate(Keys etc) provided by Firebase.
- - Project is meant to be a feature extended static site, simply run the index.html file on your local machine (libraries are included or pulled from a CDN )
+ - Project is meant to be a feature extended static site, simply run the index.html file on your local machine (libraries are included or pulled from a CDN ).
