@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+</head>
+
+<body style="color: rgb(60,89,118);"><!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+<script> 
+    firebase.initializeApp(firebaseConfig);
+</script>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">Shahbaaz Sheikh</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page lanidng-page">
+        <section class="portfolio-block photography"></section>
+    </main>
+    <div class="login-clean"><form method="post" id="registrationform">
+    <h2 class="sr-only">Login Form</h2>
+    <div class="illustration"><i class="icon ion-android-contact" style="color: #0ea0ff;"></i>
+        <form style="width: 234px;padding: 0px;" id="registrationform">
+            <div class="form-group"><input type="email" class="form-control" name="email" placeholder="Email" /></div>
+            <div class="form-group"><input type="password" class="form-control" name="password" placeholder="Password" minlength="6" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&amp;])[A-Za-z\d@$!%*?&amp;]{6,}" /></div>
+            <div class="form-group"><input type="text" class="form-control" name="name" placeholder="Name" required pattern="([A-Za-z])\w+" /></div>
+            <div class="form-group"><input type="text" class="form-control" name="surname" placeholder="Surname" required pattern="([A-Za-z])\w+" /></div>
+            <div class="form-group d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center"><button class="btn btn-primary btn-block" type="submit" style="  background-color: #7f70f5;
+  width: 120px;
+  margin: 0px;
+">Register</button></div>
+        </form>
+    </div>
+</form>
+        <footer class="page-footer"></footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/auth.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/register.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
